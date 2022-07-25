@@ -1,0 +1,9 @@
+node_modules/
+project.config.json
+yarn-error.log
+yarn.lock
+package-lock.json
+.DS_Store
+.idea
+/.idea
+project.private.config.json

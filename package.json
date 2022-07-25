@@ -1,12 +1,10 @@
 {
   "name": "test_fbl",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
-    "test": "jest",
-    "prepare": "husky install",
-    "prepublishOnly": "standard-version"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -20,10 +18,6 @@
   },
   "homepage": "https://github.com/1985008532/test_fbl#readme",
   "devDependencies": {
-    "@commitlint/config-conventional": "^17.0.3",
-    "commitlint": "^17.0.3",
-    "husky": "^8.0.1",
-    "jest": "^28.1.3",
-    "standard-version": "^9.5.0"
+    "jest": "^28.1.3"
   }
 }
