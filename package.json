@@ -1,0 +1,29 @@
+{
+  "name": "test_fbl",
+  "version": "1.0.4",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky install",
+    "prepublishOnly": "standard-version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1985008532/test_fbl.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1985008532/test_fbl/issues"
+  },
+  "homepage": "https://github.com/1985008532/test_fbl#readme",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.0.3",
+    "commitlint": "^17.0.3",
+    "husky": "^8.0.1",
+    "jest": "^28.1.3",
+    "standard-version": "^9.5.0"
+  }
+}
